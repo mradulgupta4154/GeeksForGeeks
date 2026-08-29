@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/maximize-sum-after-k-negations1149/1">Maximize Sum After k Negations</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 18px;">Given an integer array <strong>arr[]</strong> and an integer <strong>k</strong>, perform exactly k operations on the array. </span><span style="font-size: 18px;">In one operation, you can select any element and change its sign: </span><span style="font-size: 18px;">Replace arr[i] with -arr[i]. </span></p>
+<p><span style="font-size: 18px;">The same element can be selected multiple times. Return the maximum possible sum of the array after exactly k operations.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, -3, 4, 5], k = 1<strong>
+Output: </strong>15<strong>
+Explanation: </strong>Change -3 to 3. The resulting array is [1, 2, 3, 4, 5], whose sum is 15.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [5, -2, 5, -4, 5, -12, 5, 5, 5, 20], k = 5<strong>
+Output: </strong>68<strong>
+Explanation: </strong>Change -12, -4, and -2 to positive values using three operations. The remaining two operations can be performed on the same element, changing its sign twice. Therefore, the maximum sum remains 68.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong>1 ≤ k ≤ 10<sup>5<br></sup></span><span style="font-size: 18px;">1 ≤ arr.size() ≤ 10<sup>5</sup></span><span style="font-size: 18px;"><sup><br></sup></span><span style="font-size: 18px;">-10<sup>4</sup> ≤ arr[i] ≤ 10<sup>4</sup></span></p>
+<p><span style="font-size: 18px;">The element range ensures that the maximum possible array sum fits within a 32-bit signed integer.</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>logical-thinking</code>&nbsp;
