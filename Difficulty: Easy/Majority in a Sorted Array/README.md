@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-duplicates-under-given-constraints0856/1">Majority in a Sorted Array</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 18.6667px;">Given a sorted array <strong>arr[]</strong> of size <strong>n</strong>, determine whether there is a majority element in the array or not. </span><span style="font-size: 18.6667px;">An element is called a majority element if it appears more than n/2 times in the array.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3, 3, 3, 3, 10]<strong>
+Output: </strong>true<strong>
+Explanation: </strong>The size of the array is 7. The middle element is arr[7/2] = arr[3] = 3. Element 3 appears 4 times. Since 4 &gt; (7 / 2), it is a majority element.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 1, 2, 4, 4, 4, 6, 6]<strong>
+Output: </strong>false<strong>
+Explanation: </strong>The size of the array is 8. The middle element is arr[8/2] = arr[4] = 4. Element 4 appears 3 times. Since 3 is not greater than (8 / 2), it is not a majority element.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong></span><span style="font-size: 18px;">1 ≤ n ≤ 10<sup>5<br></sup></span><span style="font-size: 18px;">1 ≤ arr[i] ≤ 10</span><sup>5</sup><span style="font-size: 18px;"><br></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Yahoo</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;
