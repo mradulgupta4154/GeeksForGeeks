@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-energy1107/1">Minimum Initial Energy to Cross</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong>. The array represents checkpoints from one end to the other end of the street. </span><span style="font-size: 18px;">Positive number at a checkpoint increases the energy and negative decrease. Find the minimum initial energy required to cross the street so that the energy level never becomes 0 or less than 0.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong>&nbsp; The value of the minimum initial energy required will be 1 to start.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [4, -10, 4, 4, 4]
+<strong>Output: </strong>7
+<strong>Explanation:  </strong>With an initial energy of 7, the energy levels after visiting each checkpoint become 11, 1, 5, 9, 13. Since the energy remains strictly positive throughout the traversal, 7 is sufficient. Any smaller initial energy would cause the energy to become 0 or negative at some checkpoint.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 5, 2, 6, 1]
+<strong>Output: </strong>1
+<strong>Explanation: </strong>Starting with an initial energy of 1, the energy levels become 4, 9, 11, 17, 18. The energy never becomes 0 or negative, so the minimum required initial energy is 1.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>-10<sup>3</sup> ≤ arr[i] ≤ 10<sup>3</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;
