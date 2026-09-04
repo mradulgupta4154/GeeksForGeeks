@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/the-inverting-factor3932/1">The Inverting Factor</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 18.6667px;">Given an array <strong>arr[]</strong> of positive integers, find the minimum inverting factor among all pairs of elements. The inverting factor of two integers is the absolute difference between their reverses.</span></p>
+<p><span style="font-size: 18.6667px;"><strong>Note:</strong> Trailing zeros in a number are ignored while reversing, i.e. 1200 becomes 21 when reversed.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> arr[] = [56, 20, 47, 93, 45]
+<strong>Output :</strong> 9
+<strong>Explanation: </strong>The minimum inverting factor is 9 of the pair (56,47).Reverse (56 -&gt; 65) and (47 -&gt; 74) so,difference between them is 9.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> arr[] = [48, 23, 100, 71, 56, 89]<strong>
+Output :</strong>  14 <br><strong>Explanation:</strong> The minimum inverting factor is 14 of the pair (48,89). Reverse (48 -&gt; 84) and (89 -&gt; 98) so, difference between them is 14.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints :&nbsp;</strong><br>2 ≤ arr.size() ≤ 10<sup>5</sup><br>1 ≤ arr[i] ≤ 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Numbers</code>&nbsp;<code>Reverse</code>&nbsp;
