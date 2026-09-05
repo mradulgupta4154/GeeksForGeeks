@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/equal-point-in-sorted-array0040/1">Equal Point in Sorted Array</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 18px;">Given a sorted array <strong>arr[]</strong>, find an index <strong>i</strong> such that: </span><span style="font-size: 18px;">Number of elements smaller than <strong>arr[i]</strong> on the left side equals to the n</span><span style="font-size: 18px;">umber of elements greater than <strong>arr[i]</strong> on the right side.<br></span><span style="font-size: 18px;">Return the index <strong>i</strong>. If no such index exists, return <strong>-1</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3, 3, 3, 3]<strong>
+Output: </strong>1<strong>
+Explanation: </strong>For index 1, arr[1] = 2. There is 1 smaller element on the left: [1], There is 1 greater element on the right: [3]. So, return index 1.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3, 3, 3, 3, 4, 4]<strong>
+Output: </strong>-1<strong>
+Explanation: </strong>No index satisfies the required condition.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong></span><span style="font-size: 18px;">1 ≤ arr.size() ≤ 10<sup>5<br></sup></span><span style="font-size: 18px;">1 ≤ arr[i] ≤ 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Binary Search</code>&nbsp;<code>Arrays</code>&nbsp;
