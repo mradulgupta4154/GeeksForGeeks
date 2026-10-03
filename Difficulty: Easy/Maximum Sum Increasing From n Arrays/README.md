@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/maximum-sum-of-increasing-order-elements-from-n-arrays4848/1">Maximum Sum Increasing From n Arrays</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 18px;">Given a matrix <strong>arr[][]</strong> of size n × m, select exactly one element from each row such that the element chosen from the i-th row is strictly greater than the element chosen from the <strong>(i-1)-th</strong> row for every 2 ≤ i ≤ n.</span></p>
+<p><span style="font-size: 18px;">Find the maximum<strong> </strong>possible sum of the selected elements. If no such selection is possible, return <strong>0</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[][] = [[1, 7, 4, 3], [4, 2, 5, 1], [9, 5, 1, 8]]
+<strong>Output:</strong> 18
+<strong>Explanation: </strong>One optimal selection is 4 from the first array, 5 from the second array, and 9 from the third array. Since 4 &lt; 5 &lt; 9, the condition is satisfied and the maximum possible sum is 4 + 5 + 9 = 18.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[][] = [[9, 8, 7], [6, 5, 4], [3, 2, 1]] <strong>
+Output:</strong> 0<br></span><span style="font-size: 18px;"><strong style="font-size: 18px;">Explanation: </strong><span style="font-size: 18px;">No valid selection exists such that the chosen element from each array is strictly greater than the element chosen from the previous array.</span></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n, m ≤ 500</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Searching</code>&nbsp;<code>Greedy</code>&nbsp;
