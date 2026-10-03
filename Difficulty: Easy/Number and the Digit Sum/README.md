@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/number-and-the-digit-sum4021/1">Number and the Digit Sum</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p id="posted-message-container" class="zcmsgcnt lazy-load lazy-load-lastmsg textL" dir="auto" style="box-sizing: border-box; margin: 0px 26px 0px 0px; padding: 0.1px 0px 0px; outline: 0px; vertical-align: baseline; background: transparent; font-family: inherit; text-shadow: none; overflow-wrap: break-word; color: #222222; font-size: 15.008px; font-variant-ligatures: none; border: 0px none currentcolor;"><span style="color: #222222; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;"><span style="font-size: 18.6667px; font-variant-ligatures: none;">Given a positive value <strong>n</strong>, find the count of numbers smaller than or equal to n such that the difference between the number and the sum of its digits is greater than or equal to a given value <strong>k.</strong></span></span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 13, k = 2
+<strong>Output:</strong> 4
+<strong>Explanation</strong>: 10, 11, 12 and 13 satisfy the given condition , 10 - sumofdigit(10) = 9 &gt;= 2, 11 - sumofdigit(11) = 9 &gt;= 2, 12 - sumofdigit(12) = 9 &gt;= 2, 13 - sumofdigit(13) = 9 &gt;= 2.
+</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: n = 10, k = 5
+<strong>Output:</strong> 1
+<strong>Explanation</strong>: Only 10 satisfies the given condition as, 10 - sumofdigit(10) = 9 &gt;= 5</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>0 ≤ n, k ≤ 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Searching</code>&nbsp;<code>Mathematics</code>&nbsp;<code>Binary Search</code>&nbsp;
