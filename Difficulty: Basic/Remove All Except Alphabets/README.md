@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/remove-all-characters-other-than-alphabets4923/1">Remove All Except Alphabets</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 20px;">Given a string <strong>s</strong>, remove all characters except lowercase and uppercase alphabets (a-z and A-Z) and return the resulting string.</span></p><p><span style="font-size: 20px;">If no alphabetic characters remain after removal, return an empty string.</span></p><p><strong><span style="font-size: 18px;">Examples:</span></strong></p><pre><span style="font-size: 18px;"><strong>Input: </strong>s = "</span><span style="font-size: 20px;">$Gee*k;s..fo, r'Ge^eks?</span><span style="font-size: 18px;">"
+<strong>Output:</strong> "GeeksforGeeks"
+<strong>Explanation:</strong> </span><span style="font-size: 18px;">All characters other than alphabets are removed from the string "$Gee*k;s..fo, r'Ge^eks?", resulting in "GeeksforGeeks".</span><span style="font-size: 18px;"> </span>
+</pre><pre><span style="font-size: 18px;"><strong>Input:</strong>  s = "{{{}}&gt; *&amp; ^%*)"
+<strong>Output: ""</strong>
+<strong>Explanation:</strong> The string "{{{}}&gt; *&amp; ^%*)" does not contain any alphabetic characters, so after removing all non-alphabet characters, the resulting string is empty.</span>
+</pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;
