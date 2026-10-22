@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/product-is-even-or-odd3020/1">Array Product Even or Odd</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 14pt;">Given an array <strong>arr[]</strong> of integers, find if the product of all its elements is even or odd. Return true if the product is even else false.</span></p><p><span style="font-size: 18px;"><strong>Examples:</strong></span></p><pre><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [2, 4, 3, 5]<strong>
+Output: </strong>Even<strong>
+Explanation: </strong>Product = 2 * 4 * 3 * 5 = 120, 120 is even.</span></span></pre><pre><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 9, 7, 1]<strong>
+Output: </strong>Odd<strong>
+Explanation: </strong>Product = 3 * 9 * 7 * 1 = 189, 189 is odd.</span></span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Mathematics</code>&nbsp;
