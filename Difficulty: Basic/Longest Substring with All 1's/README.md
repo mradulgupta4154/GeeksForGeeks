@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/longest-substring-containing-1/1">Longest Substring with All 1's</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 20px;">Given a binary string <strong>s</strong>. Return the length of the longest substring containing only ‘1’.<br></span></p>
+<p><strong><span style="font-size: 20px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> s = "110"
+<strong>Output:</strong> 2
+<strong>Explanation</strong>: "11" is the longest substring containing only 1's. </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> s = "1110111</span><span style="font-size: 18px;"><span style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;"><span style="font-size: 18.6667px; white-space-collapse: collapse;">0</span></span><span style="font-size: 18px;">"
+</span><strong style="font-size: 18px;">Output:</strong><span style="font-size: 18px;"> 3
+</span><strong style="font-size: 18px;">Explanation</strong><span style="font-size: 18px;">: "111" is the longest substring containing only 1's.</span></span></pre>
+<p><span style="font-size: 20px;"><strong>Constraints:&nbsp;</strong><br>1 ≤ |s| ≤ 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Microsoft</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;
