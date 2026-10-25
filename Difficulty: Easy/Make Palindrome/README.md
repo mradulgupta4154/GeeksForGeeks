@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/make-palindrome--170647/1">Make Palindrome</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p class="PDq2pG_selectionAnchorContainer" data-start="33" data-end="127"><span style="font-size: 14pt;">Given an array of strings arr[] of size n, where every string has the same length. Find if</span><span style="font-size: 14pt;">&nbsp;it is possible to rearrange the strings and concatenate them to form a palindrome. </span></p><p><strong><span style="font-size: 18px;">Examples :</span></strong></p><pre><span style="font-size: 18px;"><strong>Input: </strong>arr = ["jfh", "adt", "hfj", "tda"]
+<strong>Output:</strong> true
+<strong>Explanation: </strong>Make the string "jfhadttdahfj", by concatenating the given strings which is a palindrome.</span>
+</pre><pre><span style="font-size: 18px;"><strong>Input: </strong>arr = ["jhjdf", "sftas", "fgsdf"]
+<strong>Output: </strong>false
+<strong>Explanation: </strong>No permutation of the given strings results in a palindromic string after concatenation.</span>
+</pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>palindrome</code>&nbsp;
