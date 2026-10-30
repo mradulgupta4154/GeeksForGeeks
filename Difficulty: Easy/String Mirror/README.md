@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/string-mirror--170647/1">String Mirror</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 18px;">You are given a string <strong>s</strong> of length<strong> </strong>n. You need to choose an integer <strong>k</strong> (1&nbsp;≤ k&nbsp;≤&nbsp;n), such that you can perform the following operation:</span></p><ul><li><span style="font-size: 18px;">Take the prefix of the string of length<strong> k</strong></span></li><li><span style="font-size: 18px;">Append the reverse of the picked prefix to itself.</span></li></ul><p><span style="font-size: 18px;">Find the lexicographically smallest string you can get by choosing a k.</span></p><p><strong><span style="font-size: 18px;">Examples:</span></strong></p><pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input: </strong><span style="font-size: 18px;">s = "bvdfndkn"
+</span><strong style="font-size: 18px;">Output: </strong><span style="font-size: 18px;">"bb"
+</span><strong style="font-size: 18px;">Explanation: </strong><span style="font-size: 18px;">If we choose k = 1, the prefix of length K will be "b", and the reverse of this prefix will be "b" itself, when we append both we get "bb", "bb" is the lexicographically smallest string you can get. If you choose K &gt; 1, the resulting string will not be lexicographically smaller than "bb".</span></span>
+</pre><pre><span style="font-size: 18px;"><strong>Input: </strong>s = "casd"
+<strong>Output: </strong>"caac"
+<strong>Explanation: <br></strong></span><span style="font-size: 18px;">For k = 1, we get cc
+For k = 2, we get caac
+For k = 3, we get cassac
+For k = 4, we get casddsac
+Out of all these, the smallest one is "caac"</span>
+</pre><p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n ≤ 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Mathematics</code>&nbsp;
