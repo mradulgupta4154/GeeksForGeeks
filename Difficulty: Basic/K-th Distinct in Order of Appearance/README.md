@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/k-th-distinct-element4510/1">K-th Distinct in Order of Appearance</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p><span style="font-size: 14pt;">Given an integer array <strong>arr[]</strong>&nbsp;and an integer <strong>k</strong>, find the k-th distinct element in the array. </span><span style="font-size: 14pt;">A distinct element that appears exactly once in the entire array.&nbsp; </span><span style="font-size: 14pt;">Distinct elements are considered in the same order as they appear in the array. </span></p>
+<p><span style="font-size: 14pt;">Return the <strong>k-th</strong> distinct element if it exists; otherwise, return <strong>-1</strong>.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 2, 1, 3, 4, 2], k = 2
+<strong>Output: </strong>4
+<strong>Explanation: </strong>The elements that appear exactly once are 3 and 4. In their order of appearance, the 2nd distinct element is 4.
+</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [5, 1, 2, 5, 3, 2, 4], k = 3
+<strong>Output: </strong>4<br><strong>Explanation: </strong>The elements that appear exactly once are 1, 3, and 4. The 3rd distinct element is 4.
+</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1&nbsp;</span><span style="font-size: 18.6667px;">≤</span><span style="font-size: 14pt;">&nbsp;n </span><span style="font-size: 18.6667px;">≤</span><span style="font-size: 14pt;">&nbsp;10</span><sup>5</sup>, <span style="font-size: 14pt;">where n is the length of the array</span><br><span style="font-size: 14pt;">1&nbsp;</span><span style="font-size: 18.6667px;">≤</span><span style="font-size: 14pt;">&nbsp;arr[i] </span><span style="font-size: 18.6667px;">≤</span><span style="font-size: 14pt;">&nbsp;10</span><sup>6<br></sup><span style="font-size: 14pt;">1 ≤ k ≤ n&nbsp;</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;
