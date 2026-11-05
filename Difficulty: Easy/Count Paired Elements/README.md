@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/love-for-the-twins2623/1">Count Paired Elements</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);" bis_skin_checked="1"><p data-start="30" data-end="242"><span style="font-size: 14pt;">Given an array <strong>arr </strong>of length <strong>n</strong>, count the total number of elements that can be grouped into pairs of equal values. Each pair consists of two identical elements, and an element can be used in at most one pair. </span><span style="font-size: 14pt;">Find the total count of elements that belong to such pairs.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong> </span></p>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> arr[] =<strong> </strong>{10, 10, 10, 20, 20, 10, 20}
+<strong>Output: </strong>6
+<strong>Explanation: </strong>The pairs formed are: (10,10), (10,10), (20,20). The leftover 20 can't be paired with any other 20. So, the Output is 6.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> arr[] =<strong> </strong>{10, 20, 30, 40}
+<strong>Output: </strong>0
+<strong>Explanation: </strong>No pairs can be formed. So, the Output is 0.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1&nbsp;</span><span style="font-size: 18px;">≤</span><span style="font-size: 18px;"> n&nbsp;</span><span style="font-size: 18px;">≤</span><span style="font-size: 18px;">&nbsp;10</span><sup>5<br></sup><span style="font-size: 18px;">1 ≤ arr[i] ≤ 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;<code>Mathematics</code>&nbsp;
